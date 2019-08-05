@@ -1,10 +1,14 @@
 package com.favorites;
 
+import com.favorites.comm.filter.SecurityFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.favorites.comm.filter.SecurityFilter;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 @Configuration
 public class WebConfiguration  {
@@ -20,7 +24,9 @@ public class WebConfiguration  {
         registration.setOrder(1);
         return registration;
     }
- 
+
+
+
 }
 
 

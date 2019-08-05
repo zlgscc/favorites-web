@@ -39,7 +39,7 @@ footer
 {
     font-size: 13px;
 
-    color: #666
+    color: #666;
     padding-bottom: 10px;
     background: white;
 }
@@ -59,7 +59,7 @@ footer > p
 {
     height: 500px;
 
-    background-image: url(../img/banner.png);
+    /*background-image: url(../img/banner.png);*/
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover; /* <------ */
